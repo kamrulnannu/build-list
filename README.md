@@ -33,8 +33,7 @@ Implement an efficent program to do following:
         JobChainTime: 02:141:50  
         AvgJobTime: 00:28:22  
   
-    Chain:  
-        (1, 2000, 5)(5, 2000, 8)(8, 1500, 7)(7, 3000, 10)(10, 10, 0)  
+    Chain: (1, 2000, 5)(5, 2000, 8)(8, 1500, 7)(7, 3000, 10)(10, 10, 0)  
   
     (b)  
         StartJob: 20  
@@ -42,8 +41,7 @@ Implement an efficent program to do following:
         JobChainTime: 00:05:00  
         AvgJobTime: 00:05:00  
   
-     Chain:  
-        (20, 300, 0)  
+     Chain: (20, 300, 0)  
   
-The program should read file from standard input (e.g. $ porg < input.txt)  
+The program should read file from standard input (e.g. $ prog < input.txt)  
 and ouput to standard out.  
